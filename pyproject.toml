@@ -1,0 +1,18 @@
+[project]
+name = "lobmto-lang-chain-example"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "lobmto"},
+]
+dependencies = ["langchain>=0.3.14", "langchain-openai>=0.3.0"]
+requires-python = "==3.13.*"
+readme = "README.md"
+license = {text = "UNLICENSED"}
+
+
+[tool.pdm]
+distribution = false
+
+[tool.pdm.scripts]
+_.env_file = ".env"

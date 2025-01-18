@@ -1,0 +1,17 @@
+# Virtual Environment
+.env
+.venv
+
+# PDM specific
+.pdm-python
+.pdm.toml
+__pypackages__/
+__pycache__/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Local development
+*.log
+.coverage
