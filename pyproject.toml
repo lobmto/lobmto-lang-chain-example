@@ -5,7 +5,7 @@ description = "Default template for PDM package"
 authors = [
     {name = "lobmto"},
 ]
-dependencies = ["langchain>=0.3.14", "langchain-openai>=0.3.0"]
+dependencies = ["langchain>=0.3.14", "langchain-openai>=0.3.0", "langchain-core>=0.3.30"]
 requires-python = "==3.13.*"
 readme = "README.md"
 license = {text = "UNLICENSED"}
